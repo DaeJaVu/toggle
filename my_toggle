@@ -7,8 +7,8 @@
 //*****************************************************************************
 //
 //!
-//! A very simple example that toggles the on-board red LED using direct register
-//! access.
+//! An example that toggles the on-board green LED (PF3) using direct register
+//! access. It flashes 5x slower than the original code.
 //
 //*****************************************************************************
 
