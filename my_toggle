@@ -31,8 +31,8 @@ PortFunctionInit(void)
     	// Enable the GPIO pin for the green LED (PF3).  Set the direction as output, and
     	// enable the GPIO pin for digital function.
     	//
-    	GPIO_PORTF_DIR_R |= 0x08;
-    	GPIO_PORTF_DEN_R |= 0x08;
+    	GPIO_PORTF_DIR_R |= 0x08; // enable PF3 output pin
+    	GPIO_PORTF_DEN_R |= 0x08; // enable PF3 digital pin
 
 }
 
